@@ -1,26 +1,3 @@
-#####################################################################
-#
-#
-#
-#  SNAKER.py  - A simple SNAKE game written in Python and Pygame
-#
-#  This is my first Python / Pygame game written as a learning
-#  exercise.
-#
-#
-#  Version: 0.1
-#  Date:  24 August 2008
-#  Author:  R Brooks
-#  Author email:  rsbrooks@gmail.com
-#
-#
-#
-#####################################################################
-
-
-
-######### IMPORTS ###################################################
-
 
 import random, math, pygame
 from pygame.locals import *
