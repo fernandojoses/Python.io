@@ -23,6 +23,8 @@ def main():
         RED = [255,0,0]
         GREEN = [0,255,0]
         BLUE = [0,0,255]
+        SAGEGREEN = [86, 130, 3]
+        ORANGE = [255,140,0]
         BLOCKSIZE = [20,20]
         UP = 1
         DOWN = 3
@@ -230,12 +232,13 @@ def main():
             
             ###### Draw the screen borders
             ### horizontals
-            pygame.draw.line(screen,RED,(0,9),(799,9),20)
-            pygame.draw.line(screen,RED,(0,590),(799,590),20)
-            pygame.draw.line(screen,RED,(0,69),(799,69),20)
+            pygame.draw.line(screen,ORANGE,(0,9),(799,9),20)
+            pygame.draw.line(screen,ORANGE,(0,590),(799,590),20)
+            pygame.draw.line(screen,ORANGE,(0,69),(799,69),20)
             ### verticals
-            pygame.draw.line(screen,RED,(9,0),(9,599),20)
-            pygame.draw.line(screen,RED,(789,0),(789,599),20)
+            pygame.draw.line(screen,ORANGE,(9,0),(9,599),20)
+            pygame.draw.line(screen,ORANGE,(789,0),(789,599),20)
+            
             
             ###### Print the score
             font = pygame.font.SysFont("arial", 38)
